@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel = "stylesheet" href = "styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<div class = "title">
+	<h1>Lord of the Rings frequency chart.</h1>
+	</div>
+	<p>This image shows the frequency of words found in the first chapter of Tolkien's LOTR</p>
+
+
+<button type="button" class="collapsible">Details</button>
+<div class = "content">
+
+	<ul>CISC 3130</ul>
+	<ul>Alanis Gomez</ul>
+	<ul>This website was created for a homework assignment.</ul>
+
+</div>
+<script src="collapsible.js"></script>
+<br>
+	
+<script src="collapsible.js"></script>
+<button type="button" class="collapsible">See Chart</button>
+<div class = "chart">
+	<img src="chart.png">
+</div>
+
+<br>
+
+<button type="button" class="collapsible">See Words</button>
+<div class="content">
+  <p><iframe src="output.txt" frameborder="0" height="400"
+      width="95%"></iframe></p>
+</div>
+<script src="collapsible.js"></script>
+</body>
+</html>
+
+
+<!-- There was an attempt to seperate words based on "value"
+Different colors represent different things
+Objects, actions, names, people, places, and just plain words-->
+
+<!-- Write Up
+I decided to use the hashmap ds because when thinking of frequency I immediately thought
+about key and value. key being the word, value being its frequency. I found this easiest as
+everytime I encountered a new word all I had to do was increment its value by one. If it
+was a new word, I'd insert it and add a default value of 1. I ran into a problem however.
+I realized my list was not in order, and in general hashmaps are not ordered. 
+
+
+
+I'd definitely want to improve the overall visual of the project. I previously dabbled in HTML/CSS
+before since I was an admin for a wiki which involved me doing a ton of entry data, but 
+I was never under a time constraint which allowed more planning. Realistically this would
+be a 3/10 for effort. 
+
+Initially I started the assignment with a song (as instructed), but after I was finished I was
+speaking with a friend about movies, which inevitably ends with me mentioning LOTR. I
+realized "Hey, if this worked with lyrics it would work with chapters.. and I am always
+in the mood to reread LOTR". I thought, this isn't exactly what was instructed, but after
+taking a look at the general assingment, it was stated to "prepare a text file that contains 
+text to anaylze. It could (key word could) be song lyrics to your favorite song". I thought, 
+LOTR isn't a song, but it is a book, and my favorite book at that. In the end I decided, I
+may as well make this assingment fun for myself.
+
+--!> 
