@@ -6,7 +6,8 @@ Assignment 4 - Write Up
 
 For my visual, there was an attempt to separate words based on "value".
 Different colors represent different values, such as:
-Objects, Actions, Names, People, Places, and just plain Words.
+Objects (Red), Actions (Pink), Names (Blue), People (Green), Places (Purple), and just plain Words (Orange).
+Words that are in gray are those that have a value of 1 (appear only once).
 --------------------------------------------------------------------------------------
 I decided to use the hashmap ds because when thinking of frequency I immediately thought
 about key and value. Key being the word, value being its frequency. I found this easiest as
