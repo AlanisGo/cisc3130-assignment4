@@ -1,0 +1,34 @@
+For my visual, there was an attempt to seperate words based on "value".
+Different colors represent different values, such as:
+Objects, Actions, Names, People, Places, and just plain Words.
+--------------------------------------------------------------------------------------
+I decided to use the hashmap ds because when thinking of frequency I immediately thought
+about key and value. Key being the word, value being its frequency. I found this easiest as
+everytime I encountered a new word all I had to do was increment its value by one. If it
+was a new word, I'd insert it and add a default value of 1. Although the sorting aspect
+required more thinking, hashmap in general made the most sense to me.
+--------------------------------------------------------------------------------------
+I decided to use word bubbles as my visual because there is no mistaking what the bubble
+represents in this case. Larger bubbles correlates to larger frequency. 
+--------------------------------------------------------------------------------------
+I'd definitely want to improve the overall visual of the project. One issue I encountered
+with my bubble usage was the cutoff of words. Unfortunately, the smaller the bubble, the
+less of the word is previewed. When viewed directly on the site created, hovering would
+show the word. However, as an image alone you're unable to preview the word. This is 
+something I would like to look into, possible creating a script that would increase the size
+of the bubble when hovering in order to view the entire word. I would give my project a
+4/5. The website is simple and to the point. But the inablitity to view all the words
+isn't ideal. 
+--------------------------------------------------------------------------------------
+Initially I started the assignment with a song (as advised), but after I was finished I was
+speaking with a friend about movies, which inevitably ends with me mentioning LOTR. I
+realized "Hey, if this worked with lyrics it would work with chapters.. and I am always
+in the mood to reread LOTR". I thought, this isn't exactly what was instructed, but after
+taking a look at the general assingment, it was stated to "prepare a text file that contains 
+text to anaylze. It could (key word "could") be song lyrics to your favorite song". I thought, 
+LOTR isn't a song, but it is a book, and my favorite book at that. In the end I decided, I
+may as well make this assingment fun for myself. Not only that but while cutting out 
+stopwords from songs I realized that my list would get shorter and shorter, not making
+the outcome very fun. With a chapter from a book, especially LOTR, there is a lot more
+room to work with, and I realized that even with a large list of stopwords there were still
+many words to look at.
