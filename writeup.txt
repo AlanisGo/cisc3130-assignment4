@@ -1,3 +1,9 @@
+Name: Alanis Gomez
+EMPLID: 23661543 
+CISC  3130 / Professor Chuang
+Assignment 4 - Write Up
+
+
 For my visual, there was an attempt to separate words based on "value".
 Different colors represent different values, such as:
 Objects, Actions, Names, People, Places, and just plain Words.
